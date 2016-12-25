@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./game.component.sass']
 })
 export class GameComponent {
-  title = 'app bar works!';
 }

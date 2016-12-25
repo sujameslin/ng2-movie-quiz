@@ -14,7 +14,8 @@ import {
   AppBarComponent,
   WelcomeDialogComponent,
   GameComponent,
-  ActorInputComponent
+  ActorInputComponent,
+  QuestionComponent
 } from './components';
 
 @NgModule({
@@ -23,6 +24,7 @@ import {
     AppBarComponent,
     WelcomeDialogComponent,
     GameComponent,
+    QuestionComponent,
     ActorInputComponent
   ],
   imports: [

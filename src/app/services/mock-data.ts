@@ -892,3 +892,313 @@ export const ACTORS: Actor[] =
      "popularity":1.003402
   }
 ];
+
+export const CASTS: Cast[] =
+[
+  {
+     "cast_id":4,
+     "character":"Sam Chisolm",
+     "credit_id":"55593382c3a368776c008f73",
+     "id":5292,
+     "name":"Denzel Washington",
+     "order":0,
+     "profile_path":"/t9arcZbg1nLt8GZt2SkWm227YoK.jpg"
+  },
+  {
+     "cast_id":0,
+     "character":"Joshua Farraday",
+     "credit_id":"555933649251417578000b31",
+     "id":73457,
+     "name":"Chris Pratt",
+     "order":1,
+     "profile_path":"/n4DD1AYU7WEMNPLga1TxqnHivn1.jpg"
+  },
+  {
+     "cast_id":5,
+     "character":"Goodnight Robicheaux",
+     "credit_id":"5559338d92514178520001a5",
+     "id":569,
+     "name":"Ethan Hawke",
+     "order":2,
+     "profile_path":"/kcby6VYk6Gb0036nUyh8chY5ZAJ.jpg"
+  },
+  {
+     "cast_id":1,
+     "character":"Jack Horne",
+     "credit_id":"5559336cc3a368777e0094c4",
+     "id":7132,
+     "name":"Vincent D'Onofrio",
+     "order":3,
+     "profile_path":"/lUEn7f7xCLuT1kRCHoxMTRnYKXW.jpg"
+  },
+  {
+     "cast_id":8,
+     "character":"Billy Rocks",
+     "credit_id":"555933b89251412afe002cda",
+     "id":25002,
+     "name":"Lee Byung-hun",
+     "order":4,
+     "profile_path":"/snuA1bKjeh4SKUmF0sNqip1zVpJ.jpg"
+  },
+  {
+     "cast_id":21,
+     "character":"Vasquez",
+     "credit_id":"5763908ec3a36860190002f0",
+     "id":1168097,
+     "name":"Manuel Garcia-Rulfo",
+     "order":5,
+     "profile_path":"/ohtV4uA906RgEZoFacqLKfJupHc.jpg"
+  },
+  {
+     "cast_id":22,
+     "character":"Red Harvest",
+     "credit_id":"576390a7925141246b0004dd",
+     "id":1584347,
+     "name":"Martin Sensmeier",
+     "order":6,
+     "profile_path":"/jQtxj9mm5MHBf5Lyta5DPFSzC9q.jpg"
+  },
+  {
+     "cast_id":23,
+     "character":"Bartholomew Bogue",
+     "credit_id":"576390cac3a368776e000059",
+     "id":133,
+     "name":"Peter Sarsgaard",
+     "order":7,
+     "profile_path":"/dGoUlDEJumPY0CFlT7eM6KVdLUu.jpg"
+  },
+  {
+     "cast_id":7,
+     "character":"Emma Cullen",
+     "credit_id":"555933a39251412afe002cd5",
+     "id":58754,
+     "name":"Haley Bennett",
+     "order":8,
+     "profile_path":"/wZdkIHRArHSSMWslGNqMxytmAe6.jpg"
+  },
+  {
+     "cast_id":3,
+     "character":"Matthew Cullen",
+     "credit_id":"5559337bc3a368778200a890",
+     "id":66743,
+     "name":"Matt Bomer",
+     "order":9,
+     "profile_path":"/aSW1IvDtHnsDOovid4U6fl4EU8f.jpg"
+  },
+  {
+     "cast_id":6,
+     "character":"Teddy",
+     "credit_id":"55593395c3a3682f610001b7",
+     "id":56680,
+     "name":"Luke Grimes",
+     "order":10,
+     "profile_path":"/exWEhmQhrUXl4zQ1lnBiSMUvOYF.jpg"
+  },
+  {
+     "cast_id":95,
+     "character":"Denali",
+     "credit_id":"57ed60429251416dfa001182",
+     "id":154778,
+     "name":"Jonathan Joss",
+     "order":11,
+     "profile_path":"/1cjHSQcnMI8Zeyn7wAbDrI0D1m.jpg"
+  },
+  {
+     "cast_id":19,
+     "character":"McCann",
+     "credit_id":"56c651c0c3a3680d41004015",
+     "id":55086,
+     "name":"Cam Gigandet",
+     "order":12,
+     "profile_path":"/bJC9iA16bMomtoOdNSgMnH7pdth.jpg"
+  },
+  {
+     "cast_id":92,
+     "character":"Fanning",
+     "credit_id":"57920318c3a368577d0011a6",
+     "id":144160,
+     "name":"Sean Bridgers",
+     "order":13,
+     "profile_path":"/jJwTRA2gHw9F4JWGXyqIicV24Cy.jpg"
+  },
+  {
+     "cast_id":94,
+     "character":"Cooper",
+     "credit_id":"57920451c3a368596100144b",
+     "id":85419,
+     "name":"Dylan Kenin",
+     "order":14,
+     "profile_path":"/1lVPWxGyXDsYhkXGHybeyN5Eyd8.jpg"
+  },
+  {
+     "cast_id":10,
+     "character":"Monday Durant",
+     "credit_id":"555933d5c3a3687779008cd9",
+     "id":1181263,
+     "name":"Kevin Wayne",
+     "order":15,
+     "profile_path":"/3gZc6YmjgbUPv7EYWJyqcBJx9Lh.jpg"
+  },
+  {
+     "cast_id":14,
+     "character":"Leni Frankel",
+     "credit_id":"55890adcc3a368054500258f",
+     "id":1158068,
+     "name":"Carrie Lazar",
+     "order":16,
+     "profile_path":"/jAWDOiLV1qJKINQcm9HF80s4Pmw.jpg"
+  },
+  {
+     "cast_id":15,
+     "character":"Turner",
+     "credit_id":"55a21c8bc3a3681ce7002f11",
+     "id":159300,
+     "name":"David Kallaway",
+     "order":17,
+     "profile_path":"/ezulXDH212W2KhWqQj6v3Q38ZQl.jpg"
+  },
+  {
+     "cast_id":93,
+     "character":"Clara Winthrop",
+     "credit_id":"57920415c3a3685925000fe0",
+     "id":965980,
+     "name":"Alix Angelis",
+     "order":18,
+     "profile_path":"/lv6izb57UCeuWiF9xCw9lClFCDo.jpg"
+  },
+  {
+     "cast_id":96,
+     "character":"Josiah",
+     "credit_id":"57ed605b9251416dfa00118f",
+     "id":62784,
+     "name":"Billy Slaughter",
+     "order":19,
+     "profile_path":"/5YykEE15cNzgexL7d5ewAu5M8XN.jpg"
+  },
+  {
+     "cast_id":97,
+     "character":"Arcade Jones",
+     "credit_id":"5815a954c3a36873d9008c10",
+     "id":1006144,
+     "name":"Vic Browder",
+     "order":20,
+     "profile_path":"/dnp92wrXceMEmleouTAiHZKp062.jpg"
+  },
+  {
+     "cast_id":98,
+     "character":"Maxwell",
+     "credit_id":"5815aa289251415cd1009b44",
+     "id":202691,
+     "name":"Emil Beheshti",
+     "order":21,
+     "profile_path":"/y8eoRYaaTHCMOXVWF7Emxg39TPK.jpg"
+  },
+  {
+     "cast_id":99,
+     "character":"Preacher",
+     "credit_id":"5815aa519251415d61009dd6",
+     "id":1301772,
+     "name":"Mark Ashworth",
+     "order":22,
+     "profile_path":"/jWBtSHaP3iSmQJC7GTPca8GNPc1.jpg"
+  },
+  {
+     "cast_id":100,
+     "character":"Anthony",
+     "credit_id":"5815aaed9251415cd1009bdf",
+     "id":1701515,
+     "name":"Dodge Prince",
+     "order":23,
+     "profile_path":"/p981lles6LXQqFjne6kzqIfbyfD.jpg"
+  },
+  {
+     "cast_id":101,
+     "character":"Hank Stoner",
+     "credit_id":"5815abaec3a368767e0096a1",
+     "id":1219824,
+     "name":"Matthew Posey",
+     "order":24,
+     "profile_path":"/jD7Yc0FxpSeaihQs8u6zeGlOf7c.jpg"
+  },
+  {
+     "cast_id":102,
+     "character":"Caleb Frankel",
+     "credit_id":"5815ac0bc3a36876af00a4b5",
+     "id":1701516,
+     "name":"Jody Mullins",
+     "order":25,
+     "profile_path":"/dFN38JI9KQ27coC08CIUVtA2kDF.jpg"
+  },
+  {
+     "cast_id":103,
+     "character":"Fenton",
+     "credit_id":"5815ac319251415d61009f1e",
+     "id":1352330,
+     "name":"Clint James",
+     "order":26,
+     "profile_path":"/imLPaip5UMbgZHokh7AoXqKidfr.jpg"
+  },
+  {
+     "cast_id":104,
+     "character":"Sheriff Harp",
+     "credit_id":"5815ac619251415a7f009aa5",
+     "id":60874,
+     "name":"Dane Rhodes",
+     "order":27,
+     "profile_path":"/cB1iGmzJe5OEillQvPWDGRkkSAC.jpg"
+  },
+  {
+     "cast_id":105,
+     "character":"Gavin David",
+     "credit_id":"5815ac7f9251415d61009f52",
+     "id":52885,
+     "name":"Ritchie Montgomery",
+     "order":28,
+     "profile_path":"/znNRxqrYkOskK3jlm3ftHyAzJDg.jpg"
+  },
+  {
+     "cast_id":106,
+     "character":"Moody",
+     "credit_id":"5815ad1f9251415abb009a09",
+     "id":10128,
+     "name":"William Lee Scott",
+     "order":29,
+     "profile_path":"/dq4IWfaRLghUgkIUB7UVBlhWj8t.jpg"
+  },
+  {
+     "cast_id":107,
+     "character":"Phillips",
+     "credit_id":"5815ad55c3a368767e0097a8",
+     "id":76021,
+     "name":"Griff Furst",
+     "order":30,
+     "profile_path":"/rRAtuKLOq27DFZ0MWu6FCVbbhS8.jpg"
+  },
+  {
+     "cast_id":108,
+     "character":"Topper",
+     "credit_id":"5815adaa9251415abb009a5c",
+     "id":86276,
+     "name":"Sean Boyd",
+     "order":31,
+     "profile_path":"/jeQ4xtuMpX4cPzPSE6iNwa7qLOG.jpg"
+  },
+  {
+     "cast_id":91,
+     "character":"(uncredited)",
+     "credit_id":"579202f5c3a36857800010cc",
+     "id":980,
+     "name":"Vinnie Jones",
+     "order":32,
+     "profile_path":"/1QQea9t0JkRVVVbgVtpGAQuf0x5.jpg"
+  },
+  {
+     "cast_id":109,
+     "character":"Amador Saloon Prostitute (uncredited)",
+     "credit_id":"5815adda9251415ab8009a3c",
+     "id":1604989,
+     "name":"Shona Gastian",
+     "order":33,
+     "profile_path":"/oO92voA1PLCUNeTbCxoNVDxsIoU.jpg"
+  }
+]
