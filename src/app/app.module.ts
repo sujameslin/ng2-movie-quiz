@@ -3,6 +3,9 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { MaterialModule, MdDialog } from '@angular/material';
+import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
+
+import { InMemoryDataService }  from './in-memory-data.service';
 
 import { AppComponent } from './app.component';
 import { AppBarComponent } from './app-bar/app-bar.component';
@@ -22,6 +25,7 @@ import { NameInputComponent } from './name-input/name-input.component';
     BrowserModule,
     FormsModule,
     HttpModule,
+    InMemoryWebApiModule.forRoot(InMemoryDataService),
     MaterialModule.forRoot()
   ],
   providers: [
