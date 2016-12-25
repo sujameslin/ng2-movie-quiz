@@ -5,11 +5,11 @@
   <md-list>
     <md-list-item
       *ngFor="let actor of actors | async"
-       (click)="gotoDetail(actor)"
-       class="search-result md-clickable"
-       md-ink-ripple
-       >
+      class="search-result md-clickable"
+    >
+      <button md-button (click)="gotoDetail(actor)">
        {{ actor.name }}
-     </md-list-item>
+      </button>
+    </md-list-item>
   </md-list>
 </div>
