@@ -7,6 +7,8 @@ import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 
 import { InMemoryDataService }  from './in-memory-data.service';
 
+import './rxjs-extensions';
+
 import { AppComponent } from './app.component';
 import {
   AppBarComponent,
@@ -33,15 +35,6 @@ import {
   providers: [
     //MdDialog
   ],
-  entryComponents: [WelcomeDialogComponent],
   bootstrap: [AppComponent]
 })
-export class AppModule {
-  constructor(public dialog: MdDialog) {
-    // this.openDialog();
-  }
-
-  openDialog() {
-    this.dialog.open(WelcomeDialogComponent);
-  }
-}
+export class AppModule {}

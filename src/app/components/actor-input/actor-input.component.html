@@ -1,3 +1,15 @@
-<md-input-container>
-  <input md-input placeholder="Type Answer">
-</md-input-container>
+<div id="search-component">
+  <md-input-container>
+    <input md-input placeholder="Type Answer" #searchBox (keyup)="search(searchBox.value)">
+  </md-input-container>
+  <md-list>
+    <md-list-item
+      *ngFor="let actor of actors | async"
+       (click)="gotoDetail(actor)"
+       class="search-result md-clickable"
+       md-ink-ripple
+       >
+       {{ actor.name }}
+     </md-list-item>
+  </md-list>
+</div>
