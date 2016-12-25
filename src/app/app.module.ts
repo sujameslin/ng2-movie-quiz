@@ -8,10 +8,12 @@ import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService }  from './in-memory-data.service';
 
 import { AppComponent } from './app.component';
-import { AppBarComponent } from './app-bar/app-bar.component';
-import { WelcomeDialogComponent } from './welcome-dialog/welcome-dialog.component';
-import { GameComponent } from './game/game.component';
-import { NameInputComponent } from './name-input/name-input.component';
+import {
+  AppBarComponent,
+  WelcomeDialogComponent,
+  GameComponent,
+  NameInputComponent
+} from './components';
 
 @NgModule({
   declarations: [
