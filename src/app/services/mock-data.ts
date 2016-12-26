@@ -1,4 +1,6 @@
 import { Actor } from '../models/actor';
+import { Cast } from '../models/cast';
+
 export const ACTORS: Actor[] =
 [
   {
@@ -896,7 +898,7 @@ export const ACTORS: Actor[] =
 export const CASTS: Cast[] =
 [
   {
-     "cast_id":4,
+     "cast_id": 4,
      "character":"Sam Chisolm",
      "credit_id":"55593382c3a368776c008f73",
      "id":5292,
@@ -1201,4 +1203,4 @@ export const CASTS: Cast[] =
      "order":33,
      "profile_path":"/oO92voA1PLCUNeTbCxoNVDxsIoU.jpg"
   }
-]
+];

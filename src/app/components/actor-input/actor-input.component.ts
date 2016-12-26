@@ -3,20 +3,20 @@ import { Observable }        from 'rxjs/Observable';
 import { Subject }           from 'rxjs/Subject';
 
 import { Actor } from '../../models/actor';
-import { ActorSearchService } from '../../services/actor-search.service';
+import { MovieService } from '../../services/movie.service';
 
 @Component({
   selector: 'ActorInput',
   templateUrl: './actor-input.component.html',
   styleUrls: ['./actor-input.component.sass'],
-  providers: [ ActorSearchService ]
+  providers: [ MovieService ]
 })
 export class ActorInputComponent implements OnInit {
   actors: Observable<Actor[]>;
   private searchTerms = new Subject<string>();
 
   constructor(
-    private actorSearchService: ActorSearchService
+    private movieService: MovieService
   ) {}
 
   // Push a search term into the observable stream.
@@ -30,7 +30,7 @@ export class ActorInputComponent implements OnInit {
       .distinctUntilChanged()   // ignore if next search term is same as previous
       .switchMap(term => term   // switch to new observable each time
         // return the http search observable
-        ? this.actorSearchService.search(term)
+        ? this.movieService.searchActorsByName(term)
         // or the observable of empty heroes if no search term
         : Observable.of<Actor[]>([]))
       .catch(error => {

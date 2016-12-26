@@ -1,20 +1,26 @@
 <md-card class="summary-card">
-  <md-card-header class="score">
-    <md-card-title>
-      <h1 class="big">Nice Round</h1>
-      <h5 class="small">Score: 1</h5>
-    </md-card-title>
+  <md-card-header>
+    <md-card-title>Nice Round</md-card-title>
+    <md-card-subtitle>Score: 1</md-card-subtitle>
   </md-card-header>
   <md-card-content>
     <p>Here's who you could have guessed</p>
-    <md-grid-list cols="3" rowHeight="240px">
-      <md-grid-tile>1</md-grid-tile>
-      <md-grid-tile>2</md-grid-tile>
-      <md-grid-tile>3</md-grid-tile>
-      <md-grid-tile>4</md-grid-tile>
-    </md-grid-list>
+    <div class="casts-grid-container">
+      <md-grid-list cols="3" rowHeight="282px" class="casts-grid" gutterSize=4>
+        <md-grid-tile *ngFor="let cast of casts | async" class="cast-tile">
+          <div class="cast-single">
+            <img class="profile-image" src="http://image.tmdb.org/t/p/w185{{ cast.profile_path }}">
+            <div class="info">
+              <div>
+                <div class="name">{{ cast.name }}</div>
+                <div class="character">playing {{ cast.character }}</div>
+              </div>
+            </div>
+          </div>
+        </md-grid-tile>
+      </md-grid-list>
+    </div>
   </md-card-content>
-  <ActorInput></ActorInput>
   <md-card-actions>
     <button md-button color="accent">PLAY AGAIN</button>
   </md-card-actions>

@@ -1,0 +1,56 @@
+.summary-card
+  padding: 20px 2px 24px
+  md-card-title
+    font-size: 24px
+    color: rgba(0, 0, 0, 0.87)
+    margin-bottom: 13px
+  md-card-subtitle
+    font-size: 14px
+    color: rgba(0, 0, 0, 0.54)
+  md-card-header
+    display: block
+    margin-bottom: 20px
+
+  md-card-content
+    margin-bottom: 0
+    p
+      font-size: 16px
+      margin-bottom: 20px
+
+.casts-grid-container
+  width: 100%
+  max-height: 240px
+  overflow-y: auto
+
+.cast-single
+  position: relative
+  overflow: hidden
+  width: 100%
+  height: 100%
+  .profile-image
+    height: 100%
+    transform: translateX(-50%)
+    position: relative
+    left: 50%
+  .info
+    position: absolute
+    left: 0
+    right: 0
+    top: 0
+    height: 68px
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.3) 70%,rgba(0,0,0,0) 100%)
+    display: flex
+    align-items: center
+    > div
+      flex-grow: 1
+      margin: 0 2px
+      color: #ffffff
+      overflow: hidden
+    .name, .character
+      font-size: 16px
+      text-overflow: ellipsis
+      overflow: hidden
+      white-space: nowrap
+
+snack-bar-container
+  background: rgba(0, 0, 0, 0.870588)
